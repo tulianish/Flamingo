@@ -4,12 +4,11 @@ font-size:40px;
 letter-spacing: normal;
 font-weight:bold;
 position : absolute;
-text-shadow: 3px 3px #4d4d4d;
+text-shadow: 2px 2px #4d4d4d;
 left:200px;
 margin-top:0px;
-font-family: 'Roboto', sans-serif;
-
-color : royalblue;
+font-family: 'Bitter', serif;
+color : darkblue;
 padding-top:15px;
 }
 
@@ -17,7 +16,7 @@ padding-top:15px;
 body
 {margin: 0;
 padding: 0;
-background-image: url(home1.jpg);
+background-image: url(back.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 z-index:-1;
@@ -117,7 +116,7 @@ footer
     display:block;
     color:black;
     text-align: center;
-    padding-top: 125px;
+    padding-top: 120px;
     opacity:0.9;
     bottom: 5px;
     font-weight: 300;
