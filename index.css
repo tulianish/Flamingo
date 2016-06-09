@@ -1,21 +1,61 @@
 .heading
 {
-font-size:30px;
-text-decoration:underline;
+font-size:40px;
 letter-spacing: normal;
+font-weight:bold;
 position : absolute;
+text-shadow: 3px 3px #4d4d4d;
 left:200px;
 margin-top:0px;
-font-family: 'Oswald',sans-serif;
-color : darkblue;
-    padding-top:10px;
+font-family: 'Roboto', sans-serif;
+
+color : royalblue;
+padding-top:15px;
 }
 
 
 body
 {margin: 0;
 padding: 0;
+background-image: url(home1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+z-index:-1;
 }
+
+
+.punchline
+{
+background-color: rgba(0,0,0,0.2);
+font-size: 65px;
+font-family: 'Playfair Display', serif;
+text-shadow: 3px 3px #4d4d4d;
+text-align: center;
+color: floralwhite;   
+}
+
+
+.hometext
+{
+font-size: 25px;
+text-align: center;
+background-color: rgba(0,0,0,0.2);
+color: darkorange;
+margin-left: 75px;
+margin-right: 75px;
+font-weight: 300;
+text-shadow: 1px 1px #4d4d4d;
+}
+
+/*hr { 
+    margin-top:0px;
+    display: block;
+    color:grey;
+    margin-left: 190px;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+}*/
 
 nav
 {
@@ -23,9 +63,8 @@ nav
     text-align: right;
     display: inline-block;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,0.3);
-    padding-right: 50px;
-    color: green;
+    background-color: rgba(0,0,0,0.2);
+    padding-right:1px;
     position: absolute;
     top: 0;
     left: 0;
@@ -33,7 +72,9 @@ nav
     z-index: 1999;
     min-width: 100%;
     font-weight: 300;
+    margin-left: 0px;
 }
+
 nav li
 {
     list-style-type: none;
@@ -69,4 +110,15 @@ li a:active
 .active
 {
     border-bottom: dashed 1px #fff;
+}
+
+footer
+{
+    display:block;
+    color:black;
+    text-align: center;
+    padding-top: 125px;
+    opacity:0.9;
+    bottom: 5px;
+    font-weight: 300;
 }
