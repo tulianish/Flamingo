@@ -18,35 +18,55 @@
 
 						<!-- Logo -->
 							<div id="logo">
-								<span class="pennant"><span class="icon fa-futbol-o"></span></span>
-								<h1><a href="index.html">Basket</a></h1>
+								<a href="index.html"><img src="logo.png" width=200px></a>
 							</div>
 
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="services.html">Services</a></li>
-									<li><a href="apage.html">A Page</a></li>
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="services.html">About Us</a></li>
+									<!--<li><a href="apage.html">A Page</a></li> -->
 									<li>
-										<a href="#" class="icon fa-caret-down">Drop Down Menu</a>
+										<a href="#">Products</a> <!-- Icon can be added : class="icon fa-caret-down"-->
 										<ul>
-											<li><a href="#">Example Menu</a></li>
-											<li><a href="#">Example Menu</a></li>
-											<li><a href="#">Example Menu</a></li>
-											<li><a href="#">Example Menu</a></li>
-											<li>
-												<a href="#">Example Submenu</a>
+											<li><a href="services.html">Pruning Tools</a>
 												<ul>
-													<li><a href="#">Example Menu</a></li>
-													<li><a href="#">Example Menu</a></li>
-													<li><a href="#">Example Menu</a></li>
-													<li><a href="#">Example Menu</a></li>
+													<li><a href="#">Rolcut Standard</a></li>
+													<li><a href="#">Rolcut Advantage</a></li>
+													<li><a href="#">Felco Type</a></li>
+													<li><a href="#">Taiwan Type</a></li>
+                                                    <li><a href="#">Pruning Saw</a></li>
+													<li><a href="#">Knives</a></li>
+                                                    
+												</ul>
+                                            </li>
+											<li><a href="#">Hedge Shears</a>
+                                            <ul>
+													<li><a href="#">Iron Handle</a></li>
+													<li><a href="#">Wooden Handle</a></li>
+											</ul>
+                                            </li>
+											<li><a href="#">Digging Tools</a>
+                                            <ul>
+													<li><a href="#">Khurpi</a></li>
+													<li><a href="#">Trowel</a></li>
+													<li><a href="#">Transplantor</a></li>
+													<li><a href="#">Cultivator</a></li>
+                                                    <li><a href="#">Weeder</a></li>
+												</ul>
+                                            </li>
+											<li>
+                                              <a href="#">Long Handle Tools </a>
+												<ul>
+													<li><a href="#">Leaf Rake</a></li>
+													<li><a href="#">Digging Fork</a></li>
+													<li><a href="#">Digging Spade</a></li>
 												</ul>
 											</li>
 										</ul>
 									</li>
-									<li class="active"><a href="contact.php">Contact Page</a></li>
+									<li><a href="contact.php">Contact Us</a></li>
 								</ul>
 							</nav>
 
